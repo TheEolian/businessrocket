@@ -12,7 +12,7 @@ $(document).ready(function () {
     {
       selector: '.navbar-fixed', offset:1500, callback: function() {
         $('nav').removeClass('transparent');
-        $('nav').addClass('blue-grey darken-3');
+        $('nav').addClass('blue-grey darken-2');
       }
     }
   ];

@@ -1,6 +1,11 @@
 $(document).ready(function () {
   // Init Sidenav
   $('.button-collapse').sideNav();
+
+  // Init ScollFire
+  $('.scrollspy').scrollSpy();
+
+
 // Init ScollFire
 
   const options = [
@@ -18,4 +23,6 @@ $(document).ready(function () {
   ];
 
   Materialize.scrollFire(options);
+
+
 });
